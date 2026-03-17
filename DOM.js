@@ -9,3 +9,10 @@ const result3 = document.getElementsByTagName("p");
 result3[2].innerHTML = "THIS IS A PET";
 result3[1].style.color = "BLUE";
 result3[2].innerText = "MY PARAGRAPH";
+const test = document.querySelectorAll("ul li");
+for(let x of test) {
+    x.style.backgroundColor = "green";
+    x.style.margin="10px";
+    x.style.padding="10px";
+
+}
